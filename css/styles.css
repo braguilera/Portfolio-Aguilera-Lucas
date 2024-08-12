@@ -534,6 +534,7 @@ nav.abajo{
     display: grid;
     gap: 1em;
     grid-auto-flow: row;
+    width: 70%;
     height: 100%;
     border-right: 1px solid #F5F4F4;
     padding-left: 10px;
@@ -543,12 +544,13 @@ nav.abajo{
 }
 
 .nav--footer p{
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .nav__link--footer{
     display: flex;
     margin: 0;
+    padding-right: 30%;
     margin-right: 20px;
     margin-top: 10px;
     flex-wrap: wrap;
@@ -562,15 +564,22 @@ nav.abajo{
 .footer__contacts{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     height: 100%;
+    width: 70%;
     bottom: 0;
+}
+
+
+.footer__contact{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .footer__contacts p{
     padding: 10px;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .footer__copy{
