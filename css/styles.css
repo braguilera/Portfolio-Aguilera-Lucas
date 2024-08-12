@@ -12,7 +12,7 @@ body{
 
 .container{
     width: 90%;
-    max-width: 2500px;
+    max-width: 1600px;
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
@@ -40,7 +40,6 @@ html{
     width: 100%;
     display: flex;
     align-items: center;
-    max-width: 2500px;
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 10px;
@@ -50,7 +49,7 @@ html{
 
 nav.abajo{
     margin-top: 0;
-    background-color: #00000025;
+    background-color: #00000070;
     backdrop-filter:blur(8px);
     box-shadow: 3px 3px 3px rgb(0,0,0,0.089);
 }
@@ -100,7 +99,6 @@ nav.abajo{
 
 
 .hero__container{
-    max-width: 2500px;
     --padding-container:0;
     display: grid;
     grid-auto-rows: max-content;
@@ -188,6 +186,7 @@ nav.abajo{
     gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     margin-top: 10%;
+
 }
 
 
@@ -201,6 +200,7 @@ nav.abajo{
     padding: 30px;
     border-radius: 32px;
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.068);
+
 }
 
 .about__icons:hover{
@@ -243,9 +243,9 @@ nav.abajo{
 .article__texts{
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-
+    padding-top: 20%;
 }
 
 .article h1{
@@ -255,7 +255,7 @@ nav.abajo{
 
 .article h3{
     font-family: 'roboto';
-    font-size: 60px;
+    font-size: 2rem;
     padding-bottom: 10px;
 }
 
@@ -263,7 +263,7 @@ nav.abajo{
     line-height: 1.7;
     margin-bottom: 15px;
     color: #F5F4F4;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .cta{
@@ -274,11 +274,11 @@ nav.abajo{
     text-align: center;
     text-decoration: none;
     color: #F5F4F4;
-    font-size: 32px;
+    font-size: 20px;
     margin-top: 10px;
-    border-radius: 32px;
+    border-radius: 100vmax;
     width: 20%;
-    height: 5%;
+    padding: .5rem;
     border-top:2px solid #f5f4f434;
     border-left:2px solid #F5F4F434 ;
     border-bottom:2px solid #23232334 ;
@@ -330,16 +330,21 @@ nav.abajo{
 }
 
 .projects__title{
-    font-size: 55px;
+    font-size: 2rem;
     margin: 0;
     color: #232323;
     padding-bottom: 20px;
 }
 
+.projects__images{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap ;
+}
 
 .projects__item{
     float: left;
-    width: 30%;
+    width: 25%;
     position: relative;
     margin: 30px;
 
@@ -382,8 +387,11 @@ nav.abajo{
     width: 100%;
     height: 50%;
     color: #F5F4F4;
-    font-size: 30px;
     text-align: center;
+}
+
+.projects__caption p{
+    padding: .25rem;
 }
 
 .pagination{
@@ -397,15 +405,13 @@ nav.abajo{
 .pagination div{
     display: inline-block;
     margin: 0 10px;
-    width: 100px;
-    height: 100%;
+    width: 50px;
 }
 
 .prev, .next{
     color: #232323;
-
     padding: 10px 15px;
-    border-radius: 50%;
+    border-radius: 100vmax;
     background-color: #458389de;
     cursor: pointer;
 }
@@ -439,7 +445,7 @@ nav.abajo{
 .questions p{
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .questions__container{
@@ -468,7 +474,7 @@ nav.abajo{
 
 .questions__title{
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     padding: 30px 0 30px;
     cursor: pointer;
     color: #232323;
@@ -478,8 +484,8 @@ nav.abajo{
 .question__arrow{
     border-radius: 50%;
     background-color: #232323;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -512,7 +518,7 @@ nav.abajo{
 }
 
 .footer__title{
-    font-size: 6rem;
+    font-size: 3rem;
     margin-bottom: 30px;
 }
 
