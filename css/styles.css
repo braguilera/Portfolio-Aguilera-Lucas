@@ -176,7 +176,7 @@ nav.abajo{
 .about__paragraph{
     line-height: 1.7;
     color: #848484;
-    font-size: 40px;
+
 }
 
 .about__main{
@@ -186,7 +186,8 @@ nav.abajo{
     height: 50%;
     margin: 0 auto;
     gap: 1em;
-    grid-template-columns: repeat(auto-fit, minmax(600px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    margin-top: 10%;
 }
 
 
@@ -194,8 +195,8 @@ nav.abajo{
     display: grid;
     gap: 0.3em;
     justify-items: center;
-    width: 600px;
-    height: 600px;
+    width: 350px;
+    height: 300px;
     margin: 0 auto;
     padding: 30px;
     border-radius: 32px;
@@ -211,11 +212,11 @@ nav.abajo{
 }
 
 .about__icon{
-    width: 100px;
+    width: 50px;
 }
 .about__title{
     font-family: 'Montserrat';
-    font-size: 70px;
+    font-size: 2rem;
 }
 
 /*Article*/
