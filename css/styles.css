@@ -774,6 +774,10 @@ nav.abajo{
         cursor: pointer;
     }
 
+    .hero{
+        height: calc(100vh-80px);
+    }
+
     .hero__container{
         margin-top: 90px;
     }
@@ -788,6 +792,7 @@ nav.abajo{
 
     .about{
         padding-top: 30px;
+        height: auto;
     }
 
     .about__main{
@@ -825,6 +830,11 @@ nav.abajo{
     .about__icons:last-of-type{
         grid-column: 1/-1;
     }
+
+    .article{
+        height: auto;
+    }
+
     .article__paragraph{
         font-size: 16px;
     }
@@ -879,6 +889,10 @@ nav.abajo{
         padding: 0;
         padding-top: 25px;
         margin: auto;
+    }
+
+    .questions{
+        height: auto;
     }
 
     .questions h1{
