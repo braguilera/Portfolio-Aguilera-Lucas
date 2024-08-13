@@ -769,6 +769,16 @@ nav.abajo{
         padding-top: 30px;
     }
 
+    .about__main{
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+
+    }
+
+    .about__icons{
+        width: 250px;
+        height: 200px;
+    }
+
     .about__icons:last-of-type{
         grid-column: 1/-1;
     }
