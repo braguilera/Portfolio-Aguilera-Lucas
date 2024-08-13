@@ -821,13 +821,23 @@ nav.abajo{
         font-size: 2rem;
     }
 
+
     .article__videos a{
         display: block;
         font-size: 1.5rem;
+        text-decoration: none;
+        color: #FFFFA2;
+        border-radius: 100vmax;
+        padding: 10px 30px;
+    }
+
+    .article__videos a:hover{
+        background: #232323;
+        transition: 0.5s;
     }
 
     .cta{
-        width: 40%;
+        width: 30%;
         font-size: 16px;
     }
 
