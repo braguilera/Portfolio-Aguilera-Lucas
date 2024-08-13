@@ -19,7 +19,7 @@ body{
 
 .hero{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     color: #F5F4F4;
@@ -696,6 +696,10 @@ nav.abajo{
 }
 
 @media (max-width:980px){
+
+    .hero{
+        height: 90vh;
+    }
 
     .article__texts{
         padding-top: 0%;
