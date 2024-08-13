@@ -144,7 +144,7 @@ nav.abajo{
     display: flex;
     position: absolute;
     right: 0;
-    bottom: 10%;
+    bottom: 0;
     width: 60%;
 }
 
@@ -963,7 +963,19 @@ nav.abajo{
 
     .article__texts h1{
         padding-bottom: 10px;
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .article__texts h3{
+        font-size: 18px;
+    }
+
+    .article__paragraph{
+        font-size: 14px;
+    }
+
+    .cta{
+        font-size: 14px;
     }
 
     .article__videos{
