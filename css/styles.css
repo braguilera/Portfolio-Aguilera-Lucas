@@ -674,6 +674,7 @@ nav.abajo{
     .article__video{
 
         width: 90%;
+        height: auto;
 
     }
 
@@ -763,10 +764,57 @@ nav.abajo{
         gap: 2em;
     }
 
+    .about__main{
+        padding: 5px;
+        padding-top: 30px;
+    }
+
     .about__icons:last-of-type{
         grid-column: 1/-1;
     }
+    .article__paragraph{
+        font-size: 16px;
+    }
 
+    .projects__title h1{
+        font-size: 3rem;
+    }
 
+    .projects__item{
+        margin: 15px;
+    }
+
+    .projects__caption{
+        font-size: 14px;
+        padding: 0;
+        padding-top: 25px;
+        margin: auto;
+    }
+
+    .questions h1{
+        font-size: 3rem;
+    }
+
+    .questions__title{
+        font-size: 20px;
+    }
+
+    .footer__container{
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .navF{
+        width: 100%;
+        border-right:none;
+        border-bottom: 1px solid #F5F4F4;
+        padding-right: 0%;
+        padding-bottom: 2%;
+    }
+
+    .footer__contacts{
+        width: 100%;
+        padding-top: 2%;
+    }
 
 }
