@@ -778,10 +778,6 @@ nav.abajo{
         cursor: pointer;
     }
 
-    .hero{
-        height: calc(100vh-80px);
-    }
-
     .hero__container{
         margin-top: 90px;
     }
