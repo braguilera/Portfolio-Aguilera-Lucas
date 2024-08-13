@@ -133,6 +133,8 @@ nav.abajo{
 
 .hero__img{
     width: 100%;
+    background: rgb(69,131,137);
+    background: linear-gradient(180deg, rgba(69,131,137,0) 0%, rgba(69,131,137,0.4906337535014006) 49%, rgba(69,131,137,1) 100%);
 }
 
 .hero__texts{
