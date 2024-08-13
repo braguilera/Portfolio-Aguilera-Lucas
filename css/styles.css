@@ -774,12 +774,20 @@ nav.abajo{
         cursor: pointer;
     }
 
+    .hero__container{
+        margin-top: 90px;
+    }
+
     .hero__subtitle{
         font-size: 1.5rem;
     }
 
     .hero__title{
         font-size: 2.5rem;
+    }
+
+    .about{
+        padding-top: 30px;
     }
 
     .about__main{
@@ -898,8 +906,6 @@ nav.abajo{
         width: 100%;
         padding-top: 2%;
     }
-
-    
 
 }
 
