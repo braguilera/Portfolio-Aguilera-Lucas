@@ -441,7 +441,7 @@ nav.abajo{
     display: flex;
     flex-direction: column;
     text-align: left;
-    height: 100vh;
+    height: auto;
     border-top: 1px solid #232323;
 
     justify-content: center;
@@ -682,8 +682,6 @@ nav.abajo{
     }
 
     .article__video{
-
-        width: 90%;
         height: auto;
 
     }
@@ -731,7 +729,7 @@ nav.abajo{
     }
 
     .questions{
-        padding-top: 0;
+        padding: 0;
     }
 
 }
@@ -891,9 +889,7 @@ nav.abajo{
         margin: auto;
     }
 
-    .questions{
-        height: auto;
-    }
+
 
     .questions h1{
         font-size: 3rem;
