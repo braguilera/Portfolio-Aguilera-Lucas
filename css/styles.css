@@ -236,7 +236,7 @@ nav.abajo{
     align-items: center;
     width: 100%;
     padding: 30px;
-    height: 100vh;
+    height: auto;
 }
 
 .article__texts{
@@ -839,7 +839,7 @@ nav.abajo{
 
     .article__container{
         grid-template-columns: none;
-        gap: -2;
+
     }
 
     .article__process{
