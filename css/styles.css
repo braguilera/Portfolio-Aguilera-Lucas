@@ -592,6 +592,13 @@ nav.abajo{
     flex-wrap: wrap;
 }
 
+.footer__contact a{
+    text-decoration: none;
+    color: #bdbdbd;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
 .footer__contacts p{
     padding: 10px;
     font-size: 20px;
@@ -1045,6 +1052,10 @@ nav.abajo{
     }
 
     .footer__contacts p{
+        font-size: 16px;
+    }
+
+    .footer__contacts a{
         font-size: 16px;
     }
 }
