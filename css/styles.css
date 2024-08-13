@@ -725,14 +725,14 @@ nav.abajo{
         width: 40%;
     }
 
-    .questions h1{
-        padding-top: 50px;
-    }
 
     .questions__container{
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
+    .questions{
+        padding-top: 0;
+    }
 
 }
 
