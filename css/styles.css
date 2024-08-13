@@ -267,7 +267,6 @@ nav.abajo{
 
 .cta{
     display: flex;
-    background-color: #458389;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -278,10 +277,13 @@ nav.abajo{
     border-radius: 100vmax;
     width: 20%;
     padding: .5rem;
-    border-top:2px solid #f5f4f434;
-    border-left:2px solid #F5F4F434 ;
-    border-bottom:2px solid #23232334 ;
-    border-right:2px solid #23232334 ;
+    border: 1px solid #F5F4F4;
+    transition: 0.5s;
+}
+
+.cta:hover{
+    background: #F5F4F4;
+    color: #232323;
 }
 
 .article__videos{
@@ -318,6 +320,10 @@ nav.abajo{
     padding: 50px;
     text-align: center;
     height: 100vh;
+}
+
+.article__videos a{
+    display: none;
 }
 
 /* Projects */
@@ -777,6 +783,19 @@ nav.abajo{
     .about__icons{
         width: 250px;
         height: 200px;
+
+    }
+
+    .about__icon{
+        width: 30px;
+    }
+
+    .about__title{
+        font-size: 1.3rem;
+    }
+
+    .about__paragraph{
+        font-size: 0.8rem;
     }
 
     .about__icons:last-of-type{
@@ -786,11 +805,38 @@ nav.abajo{
         font-size: 16px;
     }
 
+    .article__container{
+        grid-template-columns: none;
+    }
+
+    .article__process{
+        height: 300px;
+    }
+
+    .article__video{
+        display: none;
+    }
+
+    .article__videos h2{
+        font-size: 2rem;
+    }
+
+    .article__videos a{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .cta{
+        width: 40%;
+        font-size: 16px;
+    }
+
     .projects__title h1{
         font-size: 3rem;
     }
 
     .projects__item{
+        width: 40%;
         margin: 15px;
     }
 
@@ -826,5 +872,21 @@ nav.abajo{
         width: 100%;
         padding-top: 2%;
     }
+
+    
+
+}
+
+@media (max-width:620px){
+
+    .about__icons{
+        width: 90%;
+        height: 150px;
+    }
+
+    .cta{
+        width: 50%;
+    }
+
 
 }
