@@ -841,6 +841,7 @@ nav.abajo{
 
     .article__container{
         grid-template-columns: none;
+        gap: -2;
     }
 
     .article__process{
@@ -859,7 +860,6 @@ nav.abajo{
     .article__videos a{
         display: block;
         font-size: 1.5rem;
-        text-decoration: none;
         color: #FFFFA2;
         border-radius: 100vmax;
         padding: 10px 30px;
