@@ -334,6 +334,10 @@ nav.abajo{
     padding: 30px 15px;
 }
 
+.projects__container{
+    padding-bottom: 0;
+}
+
 .projects__title{
     font-size: 2rem;
     margin: 0;
@@ -899,4 +903,72 @@ nav.abajo{
     }
 
 
+}
+
+@media (max-width:500px) {
+    
+    .hero__paragraph p{
+        width: 90%;
+    }
+
+    .about__icons{
+        padding: 10px;
+    }
+
+    .article__texts h1{
+        padding-bottom: 10px;
+        font-size: 2rem;
+    }
+
+    .article__videos{
+        height: 150px;
+    }
+
+    .article__videos h2{
+        font-size: 1.5rem;
+    }
+
+    .projects__title h1{
+        font-size: 2rem;
+    }
+
+    .projects__item{
+        width: 70%;
+    }
+
+    .projects__caption{
+
+        font-size: 20px;
+    }
+    
+    .questions h1{
+        font-size: 2rem;
+    }
+
+    .questions p{
+        font-size: ;
+    }
+
+    .questions__container{
+        padding-top: 20px;
+    }
+    
+    .questions__title{
+        font-size: 16px;
+    }
+
+    .footer__copy{
+        padding-top: 10px;
+    }
+
+    .footer__img{
+        width: 30px;
+    }
+
+}
+
+@media (max-width:350px) {
+
+    
+    
 }
