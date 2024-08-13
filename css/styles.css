@@ -725,6 +725,14 @@ nav.abajo{
         width: 40%;
     }
 
+    .questions h1{
+        padding-top: 50px;
+    }
+
+    .questions__container{
+        padding-top: 20px;
+    }
+
 
 }
 
@@ -764,6 +772,10 @@ nav.abajo{
         right: 30px;
         width: 30px;
         cursor: pointer;
+    }
+
+    .hero__subtitle{
+        font-size: 1.5rem;
     }
 
     .hero__title{
@@ -893,14 +905,27 @@ nav.abajo{
 
 @media (max-width:620px){
 
+    .about h2{
+        font-size: 1.5rem;
+    }
+
+    .about h1{
+        font-size: 2.5rem;
+    }
+
     .about__icons{
         width: 90%;
-        height: 150px;
+        height: 180px;
     }
 
     .cta{
         width: 50%;
     }
+
+    .questions p{
+        font-size: 16px;
+    }
+
 
 
 }
@@ -908,6 +933,11 @@ nav.abajo{
 @media (max-width:500px) {
     
     .hero__paragraph p{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .hero__divimg{
         width: 90%;
     }
 
@@ -945,12 +975,10 @@ nav.abajo{
         font-size: 2rem;
     }
 
-    .questions p{
-        font-size: ;
-    }
 
     .questions__container{
         padding-top: 20px;
+        padding-bottom: 50px;
     }
     
     .questions__title{
@@ -967,8 +995,52 @@ nav.abajo{
 
 }
 
+@media (max-width:385px) {
+
+    .article__videos{
+        margin-bottom: 100px;
+    }
+
+    .projects__caption p{
+        font-size: 16px;
+    }
+
+    .footer__title{
+        font-size: 2rem;
+    }
+    
+    .nav--footer p{
+        font-size: 16px;
+    }
+
+    .footer__contacts p{
+        font-size: 16px;
+    }
+}
+
 @media (max-width:350px) {
 
+    .article__paragraph{
+        font-size: 14px;
+    }
+    .article__process h2{
+        font-size: 16px;
+    }
+
+    .article__process a{
+        font-size: 16px;
+    }
+
+    .projects__caption p{
+        font-size: 14px;
+    }
     
-    
+    .questions  p{
+        font-size: 14px;
+    }
+
+    .questions__title{
+        font-size: 14px;
+    }
+
 }
