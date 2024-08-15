@@ -778,6 +778,9 @@ nav.abajo{
         pointer-events: unset;
         width: 50%;
         right: 0;
+        background-color: #00000070;
+        backdrop-filter: blur(8px);
+        box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.089);
     }
 
     .nav__close{
