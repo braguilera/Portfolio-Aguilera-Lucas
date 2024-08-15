@@ -385,6 +385,15 @@ nav.abajo{
     }
 }
 
+.projects__item:hover{
+
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.774);
+    transition: 0.1s;
+}
+
 .projects__item img{
     width: 100%;
     display: block;
