@@ -65,14 +65,19 @@ nav.abajo{
     list-style: none;
 }
 
+
+
 .nav__links{
     color: #F5F4F4;
     text-decoration: none;
     font-family: 'Poppins';
     font-size: 20px;
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
+.nav__links:hover{
+    border-bottom: 2px solid #FFFFA2;
+}
 
 .nav__menu{
     margin-left: auto;
@@ -573,7 +578,6 @@ nav.abajo{
 
 .nav__link--footer  .nav__links{
     padding-left: 0;
-    padding-right: 15px;
 }
 
 .footer__contacts{
@@ -772,6 +776,8 @@ nav.abajo{
         --show: block;
         opacity: 1;
         pointer-events: unset;
+        width: 50%;
+        right: 0;
     }
 
     .nav__close{
