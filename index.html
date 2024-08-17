@@ -431,12 +431,17 @@
 
             <div class="footer__contacts">
                 <div class="footer__contact">
-                    <p><b>Phone number: </b></p>
-                    <p>+1 (856) 340-8242</p>
+                    <p>Text me</p>
+                    <a href="tel:+18563408242"><b>here</b></a>
                 </div>
+                <p>or</p>
                 <div class="footer__contact">
-                    <p><b>Mail: </b></p>
-                    <a href="mailto:lucasaguilera.art@gmail.com">lucasaguilera.art@gmail.com</a>
+                    <p>Send me a mail</p>
+                    <a href=""><b>here</b></a>
+                    <div class="copy-button-container">
+                        <button class="copy-button" onclick="copyEmail()"><img src="./img/copy.svg" alt=""></button>
+                        <span class="tooltip" id="tooltip">Email copied!</span>
+                    </div>
                 </div>
                 
                 
@@ -460,6 +465,7 @@
     <script src="./js/pagination.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/navScroll.js" ></script>
+    <script src="./js/feedback.js"></script>
 
 </body>
 </html>

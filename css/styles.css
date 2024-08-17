@@ -629,6 +629,48 @@ nav.abajo{
     margin: 10px;
 }
 
+.copy-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.copy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #233D56;
+    color: #F5F4F4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #7F592D;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #232323;
+    color: #F5F4F4;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona el tooltip encima del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.tooltip.show {
+    visibility: visible;
+    opacity: 1;
+}
+
 /* Media queries */
 
 @media (max-width:1400px){
