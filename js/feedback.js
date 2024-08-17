@@ -1,5 +1,5 @@
 function copyEmail() {
-    const email = "your-email@example.com"; // Reemplaza con el email real
+    const email = "Aguileralucas@gmail.com"; // Reemplaza con el email real
     const tooltip = document.getElementById("tooltip");
 
     // Crea un elemento de entrada temporal para copiar el email
