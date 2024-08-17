@@ -386,7 +386,7 @@ nav.abajo{
 }
 
 .projects__item:hover{
-
+    transition: 0.1s;
     border: 3px solid #F5F4F4
 
 }
@@ -691,9 +691,6 @@ nav.abajo{
         height: 250px;
     }
 
-    .about__icons:last-of-type{
-        grid-column: 1/-1;
-    }
 
     .cta{
         width: 30%;
@@ -848,10 +845,6 @@ nav.abajo{
 
     .about__paragraph{
         font-size: 0.8rem;
-    }
-
-    .about__icons:last-of-type{
-        grid-column: 1/-1;
     }
 
     .article{
