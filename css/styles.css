@@ -603,10 +603,10 @@ nav.abajo{
 }
 
 .footer__contact a{
-    text-decoration: none;
-    color: #bdbdbd;
+    color: #F5F4F4;
     font-size: 20px;
     padding-top: 10px;
+    font-weight: 100;
 }
 
 .footer__contacts p{
@@ -635,14 +635,19 @@ nav.abajo{
 }
 
 .copy-button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 5px 10px;
     background-color: #233D56;
     color: #F5F4F4;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.copy-button img{
+    width: 12px;
 }
 
 .copy-button:hover {
