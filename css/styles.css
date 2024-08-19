@@ -676,6 +676,11 @@ nav.abajo{
     opacity: 1;
 }
 
+.footer__copy a{
+    color: #FFFFA2
+}
+
+
 /* Media queries */
 
 @media (max-width:1400px){
@@ -981,6 +986,8 @@ nav.abajo{
         width: 100%;
         padding-top: 2%;
     }
+
+
 
 }
 
