@@ -664,7 +664,7 @@ nav.abajo{
     padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 125%; /* Posiciona el tooltip encima del botón */
+    bottom: 125%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -852,6 +852,8 @@ nav.abajo{
 
     .hero__container{
         margin-top: 90px;
+        position: relative;
+        height: 100vh;
     }
 
     .hero__subtitle{
@@ -860,6 +862,14 @@ nav.abajo{
 
     .hero__title{
         font-size: 2.5rem;
+    }
+    
+    .hero__paragraph p{
+        width: 100%;
+    }
+
+    .hero__divimg{
+
     }
 
     .about{
@@ -1147,4 +1157,28 @@ nav.abajo{
         font-size: 14px;
     }
 
+}
+
+@media (max-height:844px){
+    .hero__divimg{
+        display: none;
+    }
+}
+
+@media (max-height:568px){
+    .hero__title{
+        font-size: 2rem;
+    }
+
+    .hero__subtitle{
+        font-size: 1.3rem;
+    }
+
+    .hero__paragraph p{
+        font-size: 12px;
+    }
+
+    .hero__img__icons{
+        width: 25px;
+    }
 }
